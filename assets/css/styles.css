@@ -830,8 +830,8 @@ a.dotted-link:hover {
    ========================================== */
 
 .school-logo {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
 
     display: flex;
     align-items: center;
@@ -845,8 +845,8 @@ a.dotted-link:hover {
 }
 
 .school-logo img {
-    width: 30px;
-    height: 30px;
+    width: 35px;
+    height: 35px;
 
     max-width: 100%;
     max-height: 100%;
