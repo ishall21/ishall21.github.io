@@ -731,3 +731,243 @@ a.dotted-link:hover {
 
     color: #888;
 }
+
+/* =========================================
+   EDUCATIONAL BACKGROUND
+   ========================================= */
+
+.education .section-inner {
+    padding: 25px;
+}
+
+.education .heading {
+    margin: 0 0 30px;
+    padding-bottom: 14px;
+
+    font-size: 22px;
+    font-weight: 700;
+
+    color: #4b637c;
+
+    border-bottom: 2px solid #e5e7eb;
+}
+
+.education .heading i {
+    display: none;
+}
+
+
+/* =========================================
+   EDUCATION TIMELINE
+   ========================================= */
+
+.education-timeline {
+    position: relative;
+}
+
+.education-item {
+    display: grid;
+
+    grid-template-columns: 82px 32px 1fr;
+
+    column-gap: 14px;
+
+    position: relative;
+
+    min-height: 190px;
+
+    padding-bottom: 35px;
+}
+
+
+/* =========================================
+   SCHOOL LOGO
+   ========================================= */
+
+.school-logo {
+    width: 72px;
+    height: 72px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 4px;
+
+    background: #fff;
+
+    border-radius: 50%;
+
+    overflow: hidden;
+
+    z-index: 2;
+}
+
+.school-logo img {
+    width: 68px;
+    height: 68px;
+
+    object-fit: contain;
+
+    display: block;
+}
+
+
+/* =========================================
+   TIMELINE
+   ========================================= */
+
+.timeline-line {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+
+    min-height: 100%;
+}
+
+.timeline-line::after {
+    content: "";
+
+    position: absolute;
+
+    top: 20px;
+    bottom: -35px;
+
+    width: 2px;
+
+    background: #d9e0e7;
+}
+
+.education-item:last-child .timeline-line::after {
+    display: none;
+}
+
+
+/* Timeline dot */
+
+.timeline-dot {
+    position: relative;
+
+    width: 17px;
+    height: 17px;
+
+    margin-top: 12px;
+
+    border-radius: 50%;
+
+    background: #1976c9;
+
+    border: 4px solid #eaf4fc;
+
+    box-shadow: 0 0 0 2px #c9ddec;
+
+    z-index: 3;
+}
+
+
+/* =========================================
+   EDUCATION CONTENT
+   ========================================= */
+
+.education-content {
+    padding-left: 4px;
+}
+
+
+/* Degree type */
+
+.education-level {
+    display: inline-block;
+
+    padding: 6px 16px;
+
+    margin-bottom: 12px;
+
+    background: #e9f4fc;
+
+    border-radius: 6px;
+
+    color: #315879;
+
+    font-size: 10px;
+
+    font-weight: 700;
+
+    letter-spacing: 1px;
+}
+
+.education-level.diploma {
+    padding-right: 22px;
+    padding-left: 22px;
+}
+
+
+/* Degree */
+
+.education-content .title {
+    margin: 0 0 12px;
+
+    color: #1d3557;
+
+    font-size: 19px;
+
+    line-height: 1.35;
+
+    font-weight: 700;
+}
+
+
+/* School */
+
+.education-content .university {
+    margin: 0;
+
+    color: #2878bd;
+
+    font-size: 15px;
+
+    line-height: 1.4;
+
+    font-weight: 700;
+}
+
+.education-content .university i {
+    margin-right: 7px;
+
+    color: #7c8794;
+
+    font-size: 14px;
+}
+
+
+/* Location */
+
+.education-content .location {
+    margin: 2px 0 13px;
+
+    color: #7b8796;
+
+    font-size: 13px;
+
+    line-height: 1.4;
+}
+
+
+/* Date */
+
+.education-content .date {
+    margin: 0;
+
+    color: #7b8796;
+
+    font-size: 13px;
+
+    font-weight: 400;
+}
+
+.education-content .date i {
+    margin-right: 7px;
+
+    color: #7c8794;
+}
