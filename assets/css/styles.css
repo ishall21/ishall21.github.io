@@ -619,4 +619,118 @@ a.dotted-link:hover {
   }
 }
 
-/* Professional Certifications */ .certificates .section-inner { padding: 25px; } .certificates .heading { margin-bottom: 20px; font-size: 20px; font-weight: 700; color: #333; border-bottom: 2px solid #eee; padding-bottom: 12px; } .certificates .heading i { margin-right: 8px; } .certification-list { list-style: none; padding: 0; margin: 0; } .certification-item { display: flex; align-items: flex-start; gap: 12px; padding: 10px 0; line-height: 1.5; border-bottom: 1px solid #f1f1f1; } .certification-item:last-child { border-bottom: none; } .certification-item > i { flex: 0 0 18px; margin-top: 4px; font-size: 14px; } .certification-item span { font-size: 14px; font-weight: 600; }
+/* Professional Certifications  .certificates .section-inner { padding: 25px; } .certificates .heading { margin-bottom: 20px; font-size: 20px; font-weight: 700; color: #333; border-bottom: 2px solid #eee; padding-bottom: 12px; } .certificates .heading i { margin-right: 8px; } .certification-list { list-style: none; padding: 0; margin: 0; } .certification-item { display: flex; align-items: flex-start; gap: 12px; padding: 10px 0; line-height: 1.5; border-bottom: 1px solid #f1f1f1; } .certification-item:last-child { border-bottom: none; } .certification-item > i { flex: 0 0 18px; margin-top: 4px; font-size: 14px; } .certification-item span { font-size: 14px; font-weight: 600; }*/
+/* =========================================
+   PROFESSIONAL CERTIFICATIONS
+   ========================================= */
+
+.certificates .section-inner {
+    padding: 24px;
+}
+
+.certificates .heading {
+    font-size: 21px;
+    font-weight: 700;
+    margin: 0 0 20px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.certificates .heading i {
+    margin-right: 8px;
+}
+
+.cert-card {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+
+    padding: 12px 10px;
+    margin-bottom: 9px;
+
+    background: #ffffff;
+    border: 1px solid #e8eaed;
+    border-radius: 7px;
+
+    transition: all 0.25s ease;
+}
+
+.cert-card:hover {
+    transform: translateX(4px);
+    border-color: #cfd4da;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+}
+
+.cert-icon {
+    width: 38px;
+    height: 38px;
+
+    min-width: 38px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #f3f4f6;
+    color: #333;
+
+    font-size: 15px;
+}
+
+.cert-info h4 {
+    margin: 0 0 3px;
+
+    font-size: 13px;
+    line-height: 1.35;
+
+    font-weight: 600;
+    color: #222;
+}
+
+.cert-info span {
+    display: block;
+
+    font-size: 11px;
+    color: #7a7f85;
+
+    line-height: 1.3;
+}
+
+/* Certification Categories */
+
+.cert-icon.aws {
+    background: #fff4df;
+    color: #e88a00;
+}
+
+.cert-icon.microsoft {
+    background: #eef5ff;
+    color: #0078d4;
+}
+
+.cert-icon.security {
+    background: #f0f5ff;
+    color: #365fba;
+}
+
+.cert-icon.azure {
+    background: #edf8ff;
+    color: #0089d6;
+}
+
+.cert-icon.data {
+    background: #f1f4ff;
+    color: #4969c8;
+}
+
+.cert-icon.technical {
+    background: #f2f3f5;
+    color: #555;
+}
+
+.cert-icon.hardware {
+    background: #f3f3f3;
+    color: #444;
+}
