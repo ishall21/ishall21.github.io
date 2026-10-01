@@ -628,6 +628,12 @@ a.dotted-link:hover {
    HEADER
    ========================================== */
 
+.certificates .section-inner {
+    padding: 20px 18px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
 .certificates-header {
     display: flex;
     align-items: center;
