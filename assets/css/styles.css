@@ -716,8 +716,8 @@ a.dotted-link:hover {
    ========================================== */
 
 .school-logo {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
 
     display: flex;
     align-items: center;
@@ -731,8 +731,8 @@ a.dotted-link:hover {
 }
 
 .school-logo img {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
 
     max-width: 100%;
     max-height: 100%;
