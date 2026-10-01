@@ -624,6 +624,33 @@ a.dotted-link:hover {
    PROFESSIONAL CERTIFICATIONS
    ========================================= */
 
+/* ==========================================
+   HEADER
+   ========================================== */
+
+.certificates-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.certificates-header .fa-certificate {
+    font-size: 25px;
+    color: #1976c9;
+}
+
+.certificates-header .heading {
+    margin: 0;
+
+    font-size: 20px;
+    line-height: 1.2;
+
+    color: #4b637c;
+    font-weight: 700;
+}
+
+/**/
+
 .certificates .section-inner {
     padding: 25px;
 }
