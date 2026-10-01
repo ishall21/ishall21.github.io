@@ -618,3 +618,5 @@ a.dotted-link:hover {
     width: 1360px;
   }
 }
+
+/* Professional Certifications */ .certificates .section-inner { padding: 25px; } .certificates .heading { margin-bottom: 20px; font-size: 20px; font-weight: 700; color: #333; border-bottom: 2px solid #eee; padding-bottom: 12px; } .certificates .heading i { margin-right: 8px; } .certification-list { list-style: none; padding: 0; margin: 0; } .certification-item { display: flex; align-items: flex-start; gap: 12px; padding: 10px 0; line-height: 1.5; border-bottom: 1px solid #f1f1f1; } .certification-item:last-child { border-bottom: none; } .certification-item > i { flex: 0 0 18px; margin-top: 4px; font-size: 14px; } .certification-item span { font-size: 14px; font-weight: 600; }
