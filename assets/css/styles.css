@@ -1040,3 +1040,19 @@ a.dotted-link:hover {
 
     font-size: 15px;
 }
+
+.footer {
+    margin-top: 40px;
+    padding: 25px 15px;
+    background: #1e1e1e;
+    color: #ffffff;
+    text-align: center;
+    border-top: 3px solid #2e8b57;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    opacity: 0.9;
+}
